@@ -16,6 +16,38 @@
     <!-- header     -->
     <header>
 
+        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
+              <div class="container-fluid">
+                <img src="./immagini/duck.png" alt="Bootstrap" width="50" height="50">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Catalogo Libri</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Anagrafica Utenti</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Storico Prestiti</a>
+                  </li>                  
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Help</a>
+                  </li> 
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2 bg-white text-dark" type="search" placeholder="Cerca..." aria-label="Search">
+                  <button class="btn btn-outline-success text-light bg-dark border border-white" type="submit">Cerca</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          
+          <!-- p-3 mb-2 bg-white text-dark -->
+          <!-- p-3 mb-2 bg-light text-dark -->
+          <!-- form-control me-2 -->
 
     </header>
     <!-- end header -->
@@ -48,6 +80,7 @@
                             <thead>
                                 <tr>
                                     <th scope="col">Titolo</th>
+                                    <th scope="col" class="d-none d-md-block">Data prestito</th>
                                     <th scope="col">Stato</th>
                                     <th scope="col" class="text-center">Azioni</th>
                                 </tr>
@@ -55,6 +88,7 @@
                             <tbody class="align-middle">
                                 <tr>
                                     <td>I pilastri della terra</td>
+                                    <td class="d-none d-md-table-cell">-</td>
                                     <td><span class="badge text-bg-success">Disponibile</span> </td>
                                     <td>
 
@@ -82,6 +116,7 @@
                                 </tr>
                                 <tr>
                                     <td>I promessi sposi</td>
+                                    <td class="d-none d-md-table-cell">-</td>
                                     <td><span class="badge text-bg-success">Disponibile</span> </td>
                                     <td>
 
@@ -109,6 +144,7 @@
                                 </tr>
                                 <tr>
                                     <td>Il signore degli anelli</td>
+                                    <td class="d-none d-md-table-cell">18/10/2023</td>
                                     <td><span class="badge text-bg-warning">In prestio</span></td>
                                     <td>
 
@@ -136,6 +172,7 @@
                                 </tr>
                                 <tr>
                                     <td>Harry Potter e la pietra filosofale</td>
+                                    <td class="d-none d-md-table-cell">-</td>
                                     <td><span class="badge text-bg-success">Disponibile</span> </td>
                                     <td>
 
@@ -163,6 +200,7 @@
                                 </tr>
                                 <tr>
                                     <td>Il codice Da Vinci</td>
+                                    <td class="d-none d-md-table-cell">-</td>
                                     <td><span class="badge text-bg-danger">Non disponibile</span></td>
                                     <td>
 
@@ -190,6 +228,7 @@
                                 </tr>
                                 <tr>
                                     <td>Shining</td>
+                                    <td class="d-none d-md-table-cell">-</td>
                                     <td><span class="badge text-bg-success">Disponibile</span> </td>
                                     <td>
 
@@ -217,6 +256,7 @@
                                 </tr>
                                 <tr>
                                     <td>La divina commedia</td>
+                                    <td class="d-none d-md-table-cell">21/09/2023</td>
                                     <td><span class="badge text-bg-warning">In prestio</span></td>
                                     <td>
 
@@ -244,6 +284,7 @@
                                 </tr>
                                 <tr>
                                     <td>Il trono di spade</td>
+                                    <td class="d-none d-md-table-cell">-</td>
                                     <td><span class="badge text-bg-success">Disponibile</span> </td>
                                     <td>
 
@@ -271,6 +312,7 @@
                                 </tr>
                                 <tr>
                                     <td>Il mondo di Sofia</td>
+                                    <td class="d-none d-md-table-cell">-</td>
                                     <td><span class="badge text-bg-danger">Non disponibile</span></td>
                                     <td>
 
@@ -298,6 +340,7 @@
                                 </tr>
                                 <tr>
                                     <td>Le cronache di Narnia: il leone, la strega e l'armadio</td>
+                                    <td class="d-none d-md-table-cell">25/07/2023</td>
                                     <td><span class="badge text-bg-warning">In prestio</span></td>
                                     <td>
 
@@ -325,6 +368,7 @@
                                 </tr>
                                 <tr>
                                     <td>Il piccolo principe</td>
+                                    <td class="d-none d-md-table-cell">-</td>
                                     <td><span class="badge text-bg-success">Disponibile</span> </td>
                                     <td>
 
@@ -351,6 +395,7 @@
                                 </tr>
                                 <tr>
                                     <td>La storia infinita</td>
+                                    <td class="d-none d-md-table-cell">-</td>
                                     <td><span class="badge text-bg-success">Disponibile</span> </td>
                                     <td>
 
