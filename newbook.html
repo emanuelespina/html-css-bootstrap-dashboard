@@ -42,12 +42,7 @@
                             <a class="nav-link" href="#">Help</a>
                         </li>
                     </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2 bg-white text-dark" type="search" placeholder="Cerca..."
-                            aria-label="Search">
-                        <button class="btn btn-outline-success text-light bg-dark border border-white"
-                            type="submit">Cerca</button>
-                    </form>
+                    
                 </div>
             </div>
         </nav>
@@ -92,10 +87,10 @@
 
                     <input type="text" class="form-control" id="title" placeholder="Inserisci il titolo del libro">
 
-                    <p>Titolo versione italina</p>
+                    <p class="fw-normal fs-6 pt-2 mb-0">Titolo versione italina</p>
 
                 </div>
-                <div class="col-12">
+                <div class="col-12 col-lg-4">
 
                     <label for="book-type" class="form-label">Genere</label>
 
@@ -110,18 +105,18 @@
                     </select>
 
                 </div>
-                <div class="col-12">
+                <div class="col-12 col-lg-4">
 
                     <label for="age" class="form-label">Anno di pubblicazione</label>
 
-                    <input type="text" class="form-control" id="age" placeholder="Inserisci l'anno">
+                    <input type="number" class="form-control" id="age" placeholder="Inserisci l'anno">
 
                 </div>
-                <div class="col-12">
+                <div class="col-12 col-lg-4">
 
-                    <label for="ISNN" class="form-label">ISNN&num;</label>
+                    <label for="ISNN" class="form-label">ISBN&num;</label>
 
-                    <input type="text" class="form-control" id="ISNN" placeholder="inserisci il codice ISNN&num;">
+                    <input type="number" class="form-control" id="ISNN" placeholder="inserisci il codice ISBN&num;">
 
                 </div>
 
@@ -146,7 +141,7 @@
                 </div>
                 <div class="col-12">
 
-                    <button type="submit" class="btn btn-primary">Aggiungi libro</button>
+                    <button type="submit" class="btn btn-primary">Aggiungi Libro</button>
 
                 </div>
 
